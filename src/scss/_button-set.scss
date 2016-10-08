@@ -1,0 +1,36 @@
+.button-set {
+    overflow: hidden;
+}
+
+.button-set__button {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+    &:not(:first-child) {
+        margin-left: 8px;
+    }
+
+    &.button-set__button--close {
+        background-color: $red;
+        border: 1px solid #ED5652;
+    }
+
+    &.button-set__button--minimize {
+        background-color: $yellow;
+        border: 1px solid #EDB03C;
+    }
+
+    &.button-set__button--maximize {
+        background-color: $green;
+        border: 1px solid #30BB41;
+    }
+
+    &.button-set__button--inactive {
+        background-color: #DDDDDD;
+        border: 1px solid #D8D8D8;
+    }
+
+}
+

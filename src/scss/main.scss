@@ -1,0 +1,18 @@
+body {
+
+    p {
+        background-color: blue;
+    }
+
+}
+
+
+$inactive-gray: #DDDDDD;
+$red: #FC605C;
+$yellow: #FDBC40;
+$green: #34C749;
+$border-color: #BFBFBF;
+
+@import 'button-set';
+@import 'header';
+@import 'finder';

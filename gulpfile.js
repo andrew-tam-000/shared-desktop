@@ -38,6 +38,7 @@ gulp.task('js:watch', function() {
                 loaders: [
                     {
                         test: /\.js/
+                        , exclude: /(node_modules)/
                         , loader: 'babel'
                     }
                 ]
